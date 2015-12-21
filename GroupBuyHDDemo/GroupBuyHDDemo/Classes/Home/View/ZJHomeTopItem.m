@@ -8,12 +8,24 @@
 
 #import "ZJHomeTopItem.h"
 
+@interface ZJHomeTopItem ()
+
+@property (weak, nonatomic) IBOutlet UIButton *iconButton;
+
+
+@end
+
 @implementation ZJHomeTopItem
 
 + (instancetype)item{
     
     return [[[NSBundle mainBundle] loadNibNamed:@"ZJHomeTopItem" owner:nil options:nil] firstObject];
     
+}
+
+- (void)addTarget:(id)target action:(SEL)action{
+
+    [self.iconButton addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
 }
 
 @end

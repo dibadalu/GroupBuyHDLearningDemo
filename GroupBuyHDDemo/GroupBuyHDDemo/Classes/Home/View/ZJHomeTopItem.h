@@ -9,8 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @interface ZJHomeTopItem : UIView
-
-
+/**
+ *  创建自定义item
+ */
 + (instancetype)item;
+
+/**
+ *  设置点击的监听器
+ *
+ *  @param target 监听器
+ *  @param action 监听方法
+ */
+- (void)addTarget:(id)target action:(SEL)action;
 
 @end
