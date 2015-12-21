@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		548CA4131C27D9C0000E1BE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CA4121C27D9C0000E1BE6 /* main.m */; };
-		548CA4161C27D9C0000E1BE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CA4151C27D9C0000E1BE6 /* AppDelegate.m */; };
-		548CA4191C27D9C0000E1BE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CA4181C27D9C0000E1BE6 /* ViewController.m */; };
-		548CA41C1C27D9C0000E1BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548CA41A1C27D9C0000E1BE6 /* Main.storyboard */; };
 		548CA41E1C27D9C0000E1BE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548CA41D1C27D9C0000E1BE6 /* Images.xcassets */; };
-		548CA4211C27D9C0000E1BE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 548CA41F1C27D9C0000E1BE6 /* LaunchScreen.xib */; };
 		548CA42D1C27D9C0000E1BE6 /* GroupBuyHDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CA42C1C27D9C0000E1BE6 /* GroupBuyHDDemoTests.m */; };
+		548CA4431C27DE76000E1BE6 /* ZJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CA4421C27DE76000E1BE6 /* ZJHomeViewController.m */; };
+		548CA4481C27E015000E1BE6 /* ZJNavgationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CA4471C27E015000E1BE6 /* ZJNavgationViewController.m */; };
+		548CA4541C27EFF3000E1BE6 /* ZJHomeTopItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 548CA4531C27EFF3000E1BE6 /* ZJHomeTopItem.xib */; };
+		548CA4571C27F195000E1BE6 /* ZJHomeTopItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CA4561C27F195000E1BE6 /* ZJHomeTopItem.m */; };
+		548CA45D1C27F366000E1BE6 /* UIBarButtonItem+ZJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CA45A1C27F366000E1BE6 /* UIBarButtonItem+ZJExtension.m */; };
+		548CA45E1C27F366000E1BE6 /* UIView+ZJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CA45C1C27F366000E1BE6 /* UIView+ZJExtension.m */; };
+		548CA4641C27F442000E1BE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CA4611C27F442000E1BE6 /* AppDelegate.m */; };
+		548CA4651C27F442000E1BE6 /* ZJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CA4631C27F442000E1BE6 /* ZJConst.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +34,25 @@
 		548CA40D1C27D9C0000E1BE6 /* GroupBuyHDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupBuyHDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		548CA4111C27D9C0000E1BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		548CA4121C27D9C0000E1BE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		548CA4141C27D9C0000E1BE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		548CA4151C27D9C0000E1BE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		548CA4171C27D9C0000E1BE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		548CA4181C27D9C0000E1BE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		548CA41B1C27D9C0000E1BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		548CA41D1C27D9C0000E1BE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		548CA4201C27D9C0000E1BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		548CA4261C27D9C0000E1BE6 /* GroupBuyHDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupBuyHDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		548CA42B1C27D9C0000E1BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		548CA42C1C27D9C0000E1BE6 /* GroupBuyHDDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupBuyHDDemoTests.m; sourceTree = "<group>"; };
+		548CA4411C27DE76000E1BE6 /* ZJHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJHomeViewController.h; sourceTree = "<group>"; };
+		548CA4421C27DE76000E1BE6 /* ZJHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJHomeViewController.m; sourceTree = "<group>"; };
+		548CA4461C27E015000E1BE6 /* ZJNavgationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNavgationViewController.h; sourceTree = "<group>"; };
+		548CA4471C27E015000E1BE6 /* ZJNavgationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNavgationViewController.m; sourceTree = "<group>"; };
+		548CA4531C27EFF3000E1BE6 /* ZJHomeTopItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJHomeTopItem.xib; sourceTree = "<group>"; };
+		548CA4551C27F195000E1BE6 /* ZJHomeTopItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJHomeTopItem.h; sourceTree = "<group>"; };
+		548CA4561C27F195000E1BE6 /* ZJHomeTopItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJHomeTopItem.m; sourceTree = "<group>"; };
+		548CA4591C27F366000E1BE6 /* UIBarButtonItem+ZJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZJExtension.h"; sourceTree = "<group>"; };
+		548CA45A1C27F366000E1BE6 /* UIBarButtonItem+ZJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZJExtension.m"; sourceTree = "<group>"; };
+		548CA45B1C27F366000E1BE6 /* UIView+ZJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZJExtension.h"; sourceTree = "<group>"; };
+		548CA45C1C27F366000E1BE6 /* UIView+ZJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZJExtension.m"; sourceTree = "<group>"; };
+		548CA4601C27F442000E1BE6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		548CA4611C27F442000E1BE6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		548CA4621C27F442000E1BE6 /* ZJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJConst.h; sourceTree = "<group>"; };
+		548CA4631C27F442000E1BE6 /* ZJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJConst.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +94,7 @@
 		548CA40F1C27D9C0000E1BE6 /* GroupBuyHDDemo */ = {
 			isa = PBXGroup;
 			children = (
-				548CA4141C27D9C0000E1BE6 /* AppDelegate.h */,
-				548CA4151C27D9C0000E1BE6 /* AppDelegate.m */,
-				548CA4171C27D9C0000E1BE6 /* ViewController.h */,
-				548CA4181C27D9C0000E1BE6 /* ViewController.m */,
-				548CA41A1C27D9C0000E1BE6 /* Main.storyboard */,
-				548CA41D1C27D9C0000E1BE6 /* Images.xcassets */,
-				548CA41F1C27D9C0000E1BE6 /* LaunchScreen.xib */,
+				548CA4381C27DDD2000E1BE6 /* Classes */,
 				548CA4101C27D9C0000E1BE6 /* Supporting Files */,
 			);
 			path = GroupBuyHDDemo;
@@ -96,6 +103,7 @@
 		548CA4101C27D9C0000E1BE6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				548CA41D1C27D9C0000E1BE6 /* Images.xcassets */,
 				548CA4111C27D9C0000E1BE6 /* Info.plist */,
 				548CA4121C27D9C0000E1BE6 /* main.m */,
 			);
@@ -117,6 +125,92 @@
 				548CA42B1C27D9C0000E1BE6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		548CA4381C27DDD2000E1BE6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				548CA4441C27DFF4000E1BE6 /* Main */,
+				548CA4391C27DDD2000E1BE6 /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		548CA4391C27DDD2000E1BE6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				548CA43A1C27DDD2000E1BE6 /* Controller */,
+				548CA43B1C27DDD2000E1BE6 /* Model */,
+				548CA43C1C27DDD2000E1BE6 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		548CA43A1C27DDD2000E1BE6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				548CA4411C27DE76000E1BE6 /* ZJHomeViewController.h */,
+				548CA4421C27DE76000E1BE6 /* ZJHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		548CA43B1C27DDD2000E1BE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		548CA43C1C27DDD2000E1BE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				548CA4531C27EFF3000E1BE6 /* ZJHomeTopItem.xib */,
+				548CA4551C27F195000E1BE6 /* ZJHomeTopItem.h */,
+				548CA4561C27F195000E1BE6 /* ZJHomeTopItem.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		548CA4441C27DFF4000E1BE6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				548CA45F1C27F442000E1BE6 /* Others */,
+				548CA4581C27F366000E1BE6 /* Category */,
+				548CA4451C27DFF4000E1BE6 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		548CA4451C27DFF4000E1BE6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				548CA4461C27E015000E1BE6 /* ZJNavgationViewController.h */,
+				548CA4471C27E015000E1BE6 /* ZJNavgationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		548CA4581C27F366000E1BE6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				548CA4591C27F366000E1BE6 /* UIBarButtonItem+ZJExtension.h */,
+				548CA45A1C27F366000E1BE6 /* UIBarButtonItem+ZJExtension.m */,
+				548CA45B1C27F366000E1BE6 /* UIView+ZJExtension.h */,
+				548CA45C1C27F366000E1BE6 /* UIView+ZJExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		548CA45F1C27F442000E1BE6 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				548CA4601C27F442000E1BE6 /* AppDelegate.h */,
+				548CA4611C27F442000E1BE6 /* AppDelegate.m */,
+				548CA4621C27F442000E1BE6 /* ZJConst.h */,
+				548CA4631C27F442000E1BE6 /* ZJConst.m */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +257,7 @@
 		548CA4051C27D9C0000E1BE6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZJ;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = dibadalu;
 				TargetAttributes = {
@@ -199,9 +294,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				548CA41C1C27D9C0000E1BE6 /* Main.storyboard in Resources */,
-				548CA4211C27D9C0000E1BE6 /* LaunchScreen.xib in Resources */,
 				548CA41E1C27D9C0000E1BE6 /* Images.xcassets in Resources */,
+				548CA4541C27EFF3000E1BE6 /* ZJHomeTopItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				548CA4191C27D9C0000E1BE6 /* ViewController.m in Sources */,
-				548CA4161C27D9C0000E1BE6 /* AppDelegate.m in Sources */,
+				548CA45E1C27F366000E1BE6 /* UIView+ZJExtension.m in Sources */,
+				548CA4481C27E015000E1BE6 /* ZJNavgationViewController.m in Sources */,
+				548CA4641C27F442000E1BE6 /* AppDelegate.m in Sources */,
+				548CA4651C27F442000E1BE6 /* ZJConst.m in Sources */,
+				548CA4571C27F195000E1BE6 /* ZJHomeTopItem.m in Sources */,
 				548CA4131C27D9C0000E1BE6 /* main.m in Sources */,
+				548CA4431C27DE76000E1BE6 /* ZJHomeViewController.m in Sources */,
+				548CA45D1C27F366000E1BE6 /* UIBarButtonItem+ZJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +341,6 @@
 			targetProxy = 548CA4271C27D9C0000E1BE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		548CA41A1C27D9C0000E1BE6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				548CA41B1C27D9C0000E1BE6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		548CA41F1C27D9C0000E1BE6 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				548CA4201C27D9C0000E1BE6 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		548CA42E1C27D9C0000E1BE6 /* Debug */ = {
@@ -349,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = GroupBuyHDDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = GroupBuyHDDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

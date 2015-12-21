@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZJHomeTopItem.h
 //  GroupBuyHDDemo
 //
 //  Created by 陈泽嘉 on 15/12/21.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ZJHomeTopItem : UIView
 
+
++ (instancetype)item;
 
 @end
-

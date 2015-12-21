@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ZJHomeViewController.h"
+#import "ZJNavgationViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -14,9 +17,15 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //新建window并让其显示
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    ZJNavgationViewController *nav = [[ZJNavgationViewController alloc] init];
+    self.window.rootViewController = [nav initWithRootViewController:[[ZJHomeViewController alloc] init]];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
