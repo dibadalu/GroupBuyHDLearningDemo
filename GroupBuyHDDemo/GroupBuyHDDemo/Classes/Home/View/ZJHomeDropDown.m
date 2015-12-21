@@ -15,10 +15,16 @@
 #import "ZJCategoryModel.h"
 #import "ZJConst.h"
 
-@interface ZJHomeDropDown ()<UITableViewDataSource,UISearchBarDelegate>
+@interface ZJHomeDropDown ()<UITableViewDataSource,UITableViewDelegate>
 
 /** 主表 */
 @property (weak, nonatomic) IBOutlet UITableView *mainTableView;
+/** 从表 */
+@property (weak, nonatomic) IBOutlet UITableView *subTableView;
+
+
+/** 被选中的category模型 */
+@property(nonatomic,strong) ZJCategoryModel *selectedCategory;
 
 @end
 
@@ -43,33 +49,61 @@
 
 #pragma mark - tableView数据源
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-//    ZJLog(@"numberOfRowsInSection---%d---%@",self.categories.count,NSStringFromCGRect(self.frame));
-    return self.categories.count;
+
+    if (tableView == self.mainTableView) {//主表
+        return self.categories.count;
+    }else{//有子分类
+        return self.selectedCategory.subcategories.count;
+    }
+    
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//    ZJLog(@"cellForRowAtIndexPath");
-    static NSString *ID = @"MainCell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
-    if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ID];
-    }
-    
-    ZJCategoryModel *category = self.categories[indexPath.row];//取出category模型
-    cell.textLabel.text = category.name;
-    cell.imageView.image = [UIImage imageNamed:category.small_icon];
-    if (category.subcategories.count) {//如果有子分类
-        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    UITableViewCell *cell = nil;
+    if (tableView == self.mainTableView) {//主表
+        static NSString *ID = @"MainCell";
+        cell = [tableView dequeueReusableCellWithIdentifier:ID];
+        if (!cell) {
+            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ID];
+        }
+        
+        ZJCategoryModel *category = self.categories[indexPath.row];//取出category模型
+        cell.textLabel.text = category.name;
+        cell.imageView.image = [UIImage imageNamed:category.small_icon];
+        if (category.subcategories.count) {//如果有子分类
+            cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        }else{
+            cell.accessoryType = UITableViewCellAccessoryNone;
+        }
     }else{
-        cell.accessoryType = UITableViewCellAccessoryNone;
+        static NSString *ID = @"SubCell";
+        cell = [tableView dequeueReusableCellWithIdentifier:ID];
+        if (!cell) {
+            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ID];
+        }
+        
+        cell.textLabel.text = self.selectedCategory.subcategories[indexPath.row];
     }
     
-
     return cell;
 }
 
 #pragma mark - tableView代理方法
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    if (tableView == self.mainTableView) {//主表
+        //取出模型
+        ZJCategoryModel *category = self.categories[indexPath.row];
+        //将模型存进selectedCategory，供数据源方法调用
+        self.selectedCategory = category;
+        
+        //刷新从表中的数据
+        [self.subTableView reloadData];
+    }
+    
+}
+
 
 
 @end
