@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5427B3881C2974D0007D8BF9 /* ZJHomeDropDownMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B3871C2974D0007D8BF9 /* ZJHomeDropDownMainCell.m */; };
+		5427B38B1C2974E6007D8BF9 /* ZJHomeDropDownSubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B38A1C2974E6007D8BF9 /* ZJHomeDropDownSubCell.m */; };
 		548CA4131C27D9C0000E1BE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CA4121C27D9C0000E1BE6 /* main.m */; };
 		548CA41E1C27D9C0000E1BE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548CA41D1C27D9C0000E1BE6 /* Images.xcassets */; };
 		548CA42D1C27D9C0000E1BE6 /* GroupBuyHDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CA42C1C27D9C0000E1BE6 /* GroupBuyHDDemoTests.m */; };
@@ -50,6 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5427B3861C2974D0007D8BF9 /* ZJHomeDropDownMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJHomeDropDownMainCell.h; sourceTree = "<group>"; };
+		5427B3871C2974D0007D8BF9 /* ZJHomeDropDownMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJHomeDropDownMainCell.m; sourceTree = "<group>"; };
+		5427B3891C2974E6007D8BF9 /* ZJHomeDropDownSubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJHomeDropDownSubCell.h; sourceTree = "<group>"; };
+		5427B38A1C2974E6007D8BF9 /* ZJHomeDropDownSubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJHomeDropDownSubCell.m; sourceTree = "<group>"; };
 		548CA40D1C27D9C0000E1BE6 /* GroupBuyHDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupBuyHDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		548CA4111C27D9C0000E1BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		548CA4121C27D9C0000E1BE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -229,6 +235,10 @@
 				548CA4681C27F99A000E1BE6 /* ZJHomeDropDown.h */,
 				548CA4691C27F99A000E1BE6 /* ZJHomeDropDown.m */,
 				548CA4661C27F86B000E1BE6 /* ZJHomeDropDown.xib */,
+				5427B3861C2974D0007D8BF9 /* ZJHomeDropDownMainCell.h */,
+				5427B3871C2974D0007D8BF9 /* ZJHomeDropDownMainCell.m */,
+				5427B3891C2974E6007D8BF9 /* ZJHomeDropDownSubCell.h */,
+				5427B38A1C2974E6007D8BF9 /* ZJHomeDropDownSubCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -443,6 +453,7 @@
 				548CA4131C27D9C0000E1BE6 /* main.m in Sources */,
 				548CA4A61C2804BB000E1BE6 /* NSString+MJExtension.m in Sources */,
 				548CA4431C27DE76000E1BE6 /* ZJHomeViewController.m in Sources */,
+				5427B38B1C2974E6007D8BF9 /* ZJHomeDropDownSubCell.m in Sources */,
 				548CA46A1C27F99A000E1BE6 /* ZJHomeDropDown.m in Sources */,
 				548CA45D1C27F366000E1BE6 /* UIBarButtonItem+ZJExtension.m in Sources */,
 				548CA4A11C2804BB000E1BE6 /* MJPropertyType.m in Sources */,
@@ -450,6 +461,7 @@
 				548CA4A31C2804BB000E1BE6 /* NSObject+MJCoding.m in Sources */,
 				548CA49F1C2804BB000E1BE6 /* MJProperty.m in Sources */,
 				548CA49C1C2804BB000E1BE6 /* MJDictionaryCache.m in Sources */,
+				5427B3881C2974D0007D8BF9 /* ZJHomeDropDownMainCell.m in Sources */,
 				548CA4A01C2804BB000E1BE6 /* MJPropertyKey.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,6 +14,8 @@
 #import "ZJHomeDropDown.h"
 #import "ZJCategoryModel.h"
 #import "ZJConst.h"
+#import "ZJHomeDropDownMainCell.h"
+#import "ZJHomeDropDownSubCell.h"
 
 @interface ZJHomeDropDown ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -21,7 +23,6 @@
 @property (weak, nonatomic) IBOutlet UITableView *mainTableView;
 /** 从表 */
 @property (weak, nonatomic) IBOutlet UITableView *subTableView;
-
 
 /** 被选中的category模型 */
 @property(nonatomic,strong) ZJCategoryModel *selectedCategory;
@@ -62,11 +63,8 @@
 {
     UITableViewCell *cell = nil;
     if (tableView == self.mainTableView) {//主表
-        static NSString *ID = @"MainCell";
-        cell = [tableView dequeueReusableCellWithIdentifier:ID];
-        if (!cell) {
-            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ID];
-        }
+        //创建cell
+        cell = [ZJHomeDropDownMainCell dropDownMainCellWithTableView:tableView];
         
         ZJCategoryModel *category = self.categories[indexPath.row];//取出category模型
         cell.textLabel.text = category.name;
@@ -76,12 +74,10 @@
         }else{
             cell.accessoryType = UITableViewCellAccessoryNone;
         }
-    }else{
-        static NSString *ID = @"SubCell";
-        cell = [tableView dequeueReusableCellWithIdentifier:ID];
-        if (!cell) {
-            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ID];
-        }
+        
+    }else{//从表
+        
+        cell = [ZJHomeDropDownSubCell dropDownSubCellWithTableView:tableView];
         
         cell.textLabel.text = self.selectedCategory.subcategories[indexPath.row];
     }
