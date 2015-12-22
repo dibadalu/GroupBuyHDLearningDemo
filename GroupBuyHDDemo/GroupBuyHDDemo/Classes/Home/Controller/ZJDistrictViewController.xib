@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZJDistrictViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CaK-SV-wwg" userLabel="headView">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQb-RW-FLq">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                            <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="切换城市" image="btn_changeCity">
+                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="btn_changeCity_selected">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="swithCityClick:" destination="-1" eventType="touchUpInside" id="SBS-Wi-5cq"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_cell_rightArrow" translatesAutoresizingMaskIntoConstraints="NO" id="Dwa-ex-Dxo">
+                            <rect key="frame" x="573" y="13.5" width="17" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="17" id="WWq-rG-34J"/>
+                                <constraint firstAttribute="width" constant="17" id="erf-Mg-7tQ"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="nQb-RW-FLq" firstAttribute="leading" secondItem="CaK-SV-wwg" secondAttribute="leading" id="2ia-mY-SAz"/>
+                        <constraint firstAttribute="height" constant="44" id="D1L-pN-6I5"/>
+                        <constraint firstItem="nQb-RW-FLq" firstAttribute="top" secondItem="CaK-SV-wwg" secondAttribute="top" id="FGU-W9-4Ar"/>
+                        <constraint firstAttribute="centerY" secondItem="Dwa-ex-Dxo" secondAttribute="centerY" id="Fny-mf-SUt"/>
+                        <constraint firstAttribute="trailing" secondItem="nQb-RW-FLq" secondAttribute="trailing" id="QXK-Lj-pCr"/>
+                        <constraint firstAttribute="trailing" secondItem="Dwa-ex-Dxo" secondAttribute="trailing" constant="10" id="Qz1-CG-3PA"/>
+                        <constraint firstAttribute="bottom" secondItem="nQb-RW-FLq" secondAttribute="bottom" id="VtU-Jm-xIc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="CaK-SV-wwg" secondAttribute="trailing" id="ITJ-Yz-2IO"/>
+                <constraint firstItem="CaK-SV-wwg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="faT-KG-Sng"/>
+                <constraint firstItem="CaK-SV-wwg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="p5b-va-me4"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_changeCity" width="30" height="30"/>
+        <image name="btn_changeCity_selected" width="30" height="30"/>
+        <image name="icon_cell_rightArrow" width="17" height="17"/>
+    </resources>
+</document>

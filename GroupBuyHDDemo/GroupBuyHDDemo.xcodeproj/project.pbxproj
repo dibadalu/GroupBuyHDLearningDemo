@@ -9,6 +9,24 @@
 /* Begin PBXBuildFile section */
 		5427B3881C2974D0007D8BF9 /* ZJHomeDropDownMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B3871C2974D0007D8BF9 /* ZJHomeDropDownMainCell.m */; };
 		5427B38B1C2974E6007D8BF9 /* ZJHomeDropDownSubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B38A1C2974E6007D8BF9 /* ZJHomeDropDownSubCell.m */; };
+		5427B38F1C298329007D8BF9 /* ZJDistrictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B38D1C298329007D8BF9 /* ZJDistrictViewController.m */; };
+		5427B3901C298329007D8BF9 /* ZJDistrictViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5427B38E1C298329007D8BF9 /* ZJDistrictViewController.xib */; };
+		5427B3941C298B23007D8BF9 /* ZJCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B3921C298B23007D8BF9 /* ZJCityViewController.m */; };
+		5427B3951C298B23007D8BF9 /* ZJCityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5427B3931C298B23007D8BF9 /* ZJCityViewController.xib */; };
+		5427B3981C2995CE007D8BF9 /* ZJCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B3971C2995CE007D8BF9 /* ZJCityModel.m */; };
+		5427B39B1C29969A007D8BF9 /* ZJRegionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B39A1C29969A007D8BF9 /* ZJRegionModel.m */; };
+		5427B39E1C29973F007D8BF9 /* ZJCityGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B39D1C29973F007D8BF9 /* ZJCityGroupModel.m */; };
+		5427B3BA1C29AC92007D8BF9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5427B3A01C29AC92007D8BF9 /* Info.plist */; };
+		5427B3BB1C29AC92007D8BF9 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B3A21C29AC92007D8BF9 /* MASCompositeConstraint.m */; };
+		5427B3BC1C29AC92007D8BF9 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B3A51C29AC92007D8BF9 /* MASConstraint.m */; };
+		5427B3BD1C29AC92007D8BF9 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B3A71C29AC92007D8BF9 /* MASConstraintMaker.m */; };
+		5427B3BE1C29AC92007D8BF9 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B3A91C29AC92007D8BF9 /* MASLayoutConstraint.m */; };
+		5427B3BF1C29AC92007D8BF9 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B3AD1C29AC92007D8BF9 /* MASViewAttribute.m */; };
+		5427B3C01C29AC92007D8BF9 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B3AF1C29AC92007D8BF9 /* MASViewConstraint.m */; };
+		5427B3C11C29AC92007D8BF9 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B3B11C29AC92007D8BF9 /* NSArray+MASAdditions.m */; };
+		5427B3C21C29AC92007D8BF9 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B3B41C29AC92007D8BF9 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		5427B3C31C29AC92007D8BF9 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B3B61C29AC92007D8BF9 /* View+MASAdditions.m */; };
+		5427B3C41C29AC92007D8BF9 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427B3B91C29AC92007D8BF9 /* ViewController+MASAdditions.m */; };
 		548CA4131C27D9C0000E1BE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CA4121C27D9C0000E1BE6 /* main.m */; };
 		548CA41E1C27D9C0000E1BE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548CA41D1C27D9C0000E1BE6 /* Images.xcassets */; };
 		548CA42D1C27D9C0000E1BE6 /* GroupBuyHDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CA42C1C27D9C0000E1BE6 /* GroupBuyHDDemoTests.m */; };
@@ -56,6 +74,44 @@
 		5427B3871C2974D0007D8BF9 /* ZJHomeDropDownMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJHomeDropDownMainCell.m; sourceTree = "<group>"; };
 		5427B3891C2974E6007D8BF9 /* ZJHomeDropDownSubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJHomeDropDownSubCell.h; sourceTree = "<group>"; };
 		5427B38A1C2974E6007D8BF9 /* ZJHomeDropDownSubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJHomeDropDownSubCell.m; sourceTree = "<group>"; };
+		5427B38C1C298329007D8BF9 /* ZJDistrictViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDistrictViewController.h; sourceTree = "<group>"; };
+		5427B38D1C298329007D8BF9 /* ZJDistrictViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDistrictViewController.m; sourceTree = "<group>"; };
+		5427B38E1C298329007D8BF9 /* ZJDistrictViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJDistrictViewController.xib; sourceTree = "<group>"; };
+		5427B3911C298B23007D8BF9 /* ZJCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCityViewController.h; sourceTree = "<group>"; };
+		5427B3921C298B23007D8BF9 /* ZJCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCityViewController.m; sourceTree = "<group>"; };
+		5427B3931C298B23007D8BF9 /* ZJCityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJCityViewController.xib; sourceTree = "<group>"; };
+		5427B3961C2995CE007D8BF9 /* ZJCityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCityModel.h; sourceTree = "<group>"; };
+		5427B3971C2995CE007D8BF9 /* ZJCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCityModel.m; sourceTree = "<group>"; };
+		5427B3991C29969A007D8BF9 /* ZJRegionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJRegionModel.h; sourceTree = "<group>"; };
+		5427B39A1C29969A007D8BF9 /* ZJRegionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJRegionModel.m; sourceTree = "<group>"; };
+		5427B39C1C29973F007D8BF9 /* ZJCityGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCityGroupModel.h; sourceTree = "<group>"; };
+		5427B39D1C29973F007D8BF9 /* ZJCityGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCityGroupModel.m; sourceTree = "<group>"; };
+		5427B3A01C29AC92007D8BF9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5427B3A11C29AC92007D8BF9 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		5427B3A21C29AC92007D8BF9 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		5427B3A31C29AC92007D8BF9 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		5427B3A41C29AC92007D8BF9 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		5427B3A51C29AC92007D8BF9 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		5427B3A61C29AC92007D8BF9 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		5427B3A71C29AC92007D8BF9 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		5427B3A81C29AC92007D8BF9 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		5427B3A91C29AC92007D8BF9 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		5427B3AA1C29AC92007D8BF9 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		5427B3AB1C29AC92007D8BF9 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		5427B3AC1C29AC92007D8BF9 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		5427B3AD1C29AC92007D8BF9 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		5427B3AE1C29AC92007D8BF9 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		5427B3AF1C29AC92007D8BF9 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		5427B3B01C29AC92007D8BF9 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		5427B3B11C29AC92007D8BF9 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		5427B3B21C29AC92007D8BF9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		5427B3B31C29AC92007D8BF9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		5427B3B41C29AC92007D8BF9 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		5427B3B51C29AC92007D8BF9 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		5427B3B61C29AC92007D8BF9 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		5427B3B71C29AC92007D8BF9 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		5427B3B81C29AC92007D8BF9 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		5427B3B91C29AC92007D8BF9 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		548CA40D1C27D9C0000E1BE6 /* GroupBuyHDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupBuyHDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		548CA4111C27D9C0000E1BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		548CA4121C27D9C0000E1BE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -132,6 +188,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5427B39F1C29AC92007D8BF9 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				5427B3A01C29AC92007D8BF9 /* Info.plist */,
+				5427B3A11C29AC92007D8BF9 /* MASCompositeConstraint.h */,
+				5427B3A21C29AC92007D8BF9 /* MASCompositeConstraint.m */,
+				5427B3A31C29AC92007D8BF9 /* MASConstraint+Private.h */,
+				5427B3A41C29AC92007D8BF9 /* MASConstraint.h */,
+				5427B3A51C29AC92007D8BF9 /* MASConstraint.m */,
+				5427B3A61C29AC92007D8BF9 /* MASConstraintMaker.h */,
+				5427B3A71C29AC92007D8BF9 /* MASConstraintMaker.m */,
+				5427B3A81C29AC92007D8BF9 /* MASLayoutConstraint.h */,
+				5427B3A91C29AC92007D8BF9 /* MASLayoutConstraint.m */,
+				5427B3AA1C29AC92007D8BF9 /* Masonry.h */,
+				5427B3AB1C29AC92007D8BF9 /* MASUtilities.h */,
+				5427B3AC1C29AC92007D8BF9 /* MASViewAttribute.h */,
+				5427B3AD1C29AC92007D8BF9 /* MASViewAttribute.m */,
+				5427B3AE1C29AC92007D8BF9 /* MASViewConstraint.h */,
+				5427B3AF1C29AC92007D8BF9 /* MASViewConstraint.m */,
+				5427B3B01C29AC92007D8BF9 /* NSArray+MASAdditions.h */,
+				5427B3B11C29AC92007D8BF9 /* NSArray+MASAdditions.m */,
+				5427B3B21C29AC92007D8BF9 /* NSArray+MASShorthandAdditions.h */,
+				5427B3B31C29AC92007D8BF9 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				5427B3B41C29AC92007D8BF9 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				5427B3B51C29AC92007D8BF9 /* View+MASAdditions.h */,
+				5427B3B61C29AC92007D8BF9 /* View+MASAdditions.m */,
+				5427B3B71C29AC92007D8BF9 /* View+MASShorthandAdditions.h */,
+				5427B3B81C29AC92007D8BF9 /* ViewController+MASAdditions.h */,
+				5427B3B91C29AC92007D8BF9 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 		548CA4041C27D9C0000E1BE6 = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +302,12 @@
 				548CA4421C27DE76000E1BE6 /* ZJHomeViewController.m */,
 				548CA47D1C280039000E1BE6 /* ZJCategoryViewController.h */,
 				548CA47E1C280039000E1BE6 /* ZJCategoryViewController.m */,
+				5427B38C1C298329007D8BF9 /* ZJDistrictViewController.h */,
+				5427B38D1C298329007D8BF9 /* ZJDistrictViewController.m */,
+				5427B38E1C298329007D8BF9 /* ZJDistrictViewController.xib */,
+				5427B3911C298B23007D8BF9 /* ZJCityViewController.h */,
+				5427B3921C298B23007D8BF9 /* ZJCityViewController.m */,
+				5427B3931C298B23007D8BF9 /* ZJCityViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -222,6 +317,12 @@
 			children = (
 				548CA4801C28032B000E1BE6 /* ZJCategoryModel.h */,
 				548CA4811C28032B000E1BE6 /* ZJCategoryModel.m */,
+				5427B3961C2995CE007D8BF9 /* ZJCityModel.h */,
+				5427B3971C2995CE007D8BF9 /* ZJCityModel.m */,
+				5427B3991C29969A007D8BF9 /* ZJRegionModel.h */,
+				5427B39A1C29969A007D8BF9 /* ZJRegionModel.m */,
+				5427B39C1C29973F007D8BF9 /* ZJCityGroupModel.h */,
+				5427B39D1C29973F007D8BF9 /* ZJCityGroupModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -299,6 +400,7 @@
 		548CA4831C2804AD000E1BE6 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				5427B39F1C29AC92007D8BF9 /* Masonry */,
 				548CA4841C2804BB000E1BE6 /* MJExtension */,
 			);
 			path = Lib;
@@ -418,9 +520,12 @@
 				548CA47A1C27FF59000E1BE6 /* cities.plist in Resources */,
 				548CA4791C27FF59000E1BE6 /* categories.plist in Resources */,
 				548CA4671C27F86B000E1BE6 /* ZJHomeDropDown.xib in Resources */,
+				5427B3951C298B23007D8BF9 /* ZJCityViewController.xib in Resources */,
 				548CA47C1C27FF59000E1BE6 /* sorts.plist in Resources */,
 				548CA47B1C27FF59000E1BE6 /* cityGroups.plist in Resources */,
+				5427B3901C298329007D8BF9 /* ZJDistrictViewController.xib in Resources */,
 				548CA41E1C27D9C0000E1BE6 /* Images.xcassets in Resources */,
+				5427B3BA1C29AC92007D8BF9 /* Info.plist in Resources */,
 				548CA4541C27EFF3000E1BE6 /* ZJHomeTopItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,12 +544,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5427B3C31C29AC92007D8BF9 /* View+MASAdditions.m in Sources */,
 				548CA47F1C280039000E1BE6 /* ZJCategoryViewController.m in Sources */,
+				5427B3941C298B23007D8BF9 /* ZJCityViewController.m in Sources */,
 				548CA49E1C2804BB000E1BE6 /* MJFoundation.m in Sources */,
 				548CA49D1C2804BB000E1BE6 /* MJExtensionConst.m in Sources */,
+				5427B3BB1C29AC92007D8BF9 /* MASCompositeConstraint.m in Sources */,
+				5427B3BD1C29AC92007D8BF9 /* MASConstraintMaker.m in Sources */,
 				548CA45E1C27F366000E1BE6 /* UIView+ZJExtension.m in Sources */,
+				5427B3C41C29AC92007D8BF9 /* ViewController+MASAdditions.m in Sources */,
+				5427B3BE1C29AC92007D8BF9 /* MASLayoutConstraint.m in Sources */,
+				5427B39E1C29973F007D8BF9 /* ZJCityGroupModel.m in Sources */,
 				548CA4821C28032B000E1BE6 /* ZJCategoryModel.m in Sources */,
 				548CA4481C27E015000E1BE6 /* ZJNavgationViewController.m in Sources */,
+				5427B39B1C29969A007D8BF9 /* ZJRegionModel.m in Sources */,
 				548CA4641C27F442000E1BE6 /* AppDelegate.m in Sources */,
 				548CA4651C27F442000E1BE6 /* ZJConst.m in Sources */,
 				548CA4A41C2804BB000E1BE6 /* NSObject+MJKeyValue.m in Sources */,
@@ -454,13 +567,20 @@
 				548CA4A61C2804BB000E1BE6 /* NSString+MJExtension.m in Sources */,
 				548CA4431C27DE76000E1BE6 /* ZJHomeViewController.m in Sources */,
 				5427B38B1C2974E6007D8BF9 /* ZJHomeDropDownSubCell.m in Sources */,
+				5427B3BF1C29AC92007D8BF9 /* MASViewAttribute.m in Sources */,
+				5427B3BC1C29AC92007D8BF9 /* MASConstraint.m in Sources */,
 				548CA46A1C27F99A000E1BE6 /* ZJHomeDropDown.m in Sources */,
 				548CA45D1C27F366000E1BE6 /* UIBarButtonItem+ZJExtension.m in Sources */,
+				5427B3C01C29AC92007D8BF9 /* MASViewConstraint.m in Sources */,
 				548CA4A11C2804BB000E1BE6 /* MJPropertyType.m in Sources */,
 				548CA4A51C2804BB000E1BE6 /* NSObject+MJProperty.m in Sources */,
 				548CA4A31C2804BB000E1BE6 /* NSObject+MJCoding.m in Sources */,
 				548CA49F1C2804BB000E1BE6 /* MJProperty.m in Sources */,
+				5427B3981C2995CE007D8BF9 /* ZJCityModel.m in Sources */,
+				5427B38F1C298329007D8BF9 /* ZJDistrictViewController.m in Sources */,
+				5427B3C11C29AC92007D8BF9 /* NSArray+MASAdditions.m in Sources */,
 				548CA49C1C2804BB000E1BE6 /* MJDictionaryCache.m in Sources */,
+				5427B3C21C29AC92007D8BF9 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				5427B3881C2974D0007D8BF9 /* ZJHomeDropDownMainCell.m in Sources */,
 				548CA4A01C2804BB000E1BE6 /* MJPropertyKey.m in Sources */,
 			);

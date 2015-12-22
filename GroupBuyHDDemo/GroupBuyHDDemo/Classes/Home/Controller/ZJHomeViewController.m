@@ -18,6 +18,7 @@
 #import "UIView+ZJExtension.h"
 #import "ZJHomeTopItem.h"
 #import "ZJCategoryViewController.h"
+#import "ZJDistrictViewController.h"
 
 @interface ZJHomeViewController ()
 
@@ -92,14 +93,17 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)categoryItemClick{
     
 //    ZJLog(@"categoryItemClick");
-    //显示popover菜单
+    //创建分类菜单
     UIPopoverController *popover = [[UIPopoverController alloc] initWithContentViewController:[[ZJCategoryViewController alloc] init]];
     [popover presentPopoverFromBarButtonItem:self.categoryItem permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
     
 }
 - (void)districtItemClick{
     
-    ZJLog(@"districtItemClick");
+//    ZJLog(@"districtItemClick");
+    //创建城市菜单
+    UIPopoverController *popover = [[UIPopoverController alloc] initWithContentViewController:[[ZJDistrictViewController alloc] init]];
+    [popover presentPopoverFromBarButtonItem:self.districtItem permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
 }
 - (void)sortItemClick{
     

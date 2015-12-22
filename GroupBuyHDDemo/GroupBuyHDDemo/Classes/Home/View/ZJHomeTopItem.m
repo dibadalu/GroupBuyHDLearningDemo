@@ -23,6 +23,11 @@
     
 }
 
+- (void)awakeFromNib{
+#warning 在nib文件中使用了autolayout后要self.autoresizingMask = UIViewAutoresizingNone;
+    self.autoresizingMask = UIViewAutoresizingNone;
+}
+
 - (void)addTarget:(id)target action:(SEL)action{
 
     [self.iconButton addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
